@@ -1,9 +1,21 @@
 aws:
   - name: build01
+    capabilities:
+      - arm64
   - name: build03
   - name: build05
+<<<<<<< HEAD
+=======
+  - name: build06
+    capabilities:
+      - arm64
+>>>>>>> bac246449f2 (Fix prow-ordered-config)
   - name: build09
+    capabilities:
+      - arm64
   - name: build10
+    capabilities:
+      - arm64
 
 gcp:
   - name: build02
