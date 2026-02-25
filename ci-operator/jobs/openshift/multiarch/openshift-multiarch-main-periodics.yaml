@@ -42330,6 +42330,7 @@ periodics:
       secret:
         secretName: result-aggregator
 - agent: kubernetes
+<<<<<<< HEAD
   cluster: build11
   cron: 0 1 * * 2,4
   decorate: true
@@ -42499,6 +42500,9 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+=======
+  cluster: build09
+>>>>>>> 08413011f90 (MULTIARCH-5766 : refactor heavy-build into regular build)
   decorate: true
   decoration_config:
     skip_cloning: true
